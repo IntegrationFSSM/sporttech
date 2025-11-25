@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hackathon SporTech 2025-2030 - La passion du sport & la puissance de la tech ! Université Cadi Ayyad, Marrakech-Safi">
+    <meta name="keywords" content="hackathon, sport, tech, intelligence artificielle, Maroc, innovation, SporTech">
+    <title>Hackathon SporTech 2025-2030 | Cité de l'Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SporTech</span>
+                <span class="logo-year">2025</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#message" class="nav-link">Message</a></li>
+                <li><a href="#themes" class="nav-link">Thématiques</a></li>
+                <li><a href="#comite" class="nav-link">Comité</a></li>
+                <li><a href="#calendrier" class="nav-link">Calendrier</a></li>
+                <li><a href="#participer" class="nav-link cta-nav">Participer</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-grid"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <span class="badge-icon">🏆</span>
+                <span>1ère Édition</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up">
+                <span class="title-main">HACKATHON</span>
+                <span class="title-sub">SporTech 2025-2030</span>
+            </h1>
+            <p class="hero-tagline" data-aos="fade-up" data-aos-delay="100">
+                La passion du sport & la puissance de la tech !
+            </p>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Célébrons la CAN 2025 par la culture de créativité et d'innovation !
+            </p>
+            <div class="hero-info" data-aos="fade-up" data-aos-delay="300">
+                <div class="info-item">
+                    <span class="info-icon">📅</span>
+                    <div>
+                        <p class="info-label">Date</p>
+                        <p class="info-value">26 & 27 Décembre 2025</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <p class="info-label">Lieu</p>
+                        <p class="info-value">Cité de l'Innovation, Marrakech</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="#participer" class="btn btn-primary pulse">
+                    <span>Participer Maintenant</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                    <span>En Savoir Plus</span>
+                </a>
+            </div>
+            <div class="countdown-container" data-aos="fade-up" data-aos-delay="500">
+                <p class="countdown-label">Temps restant avant l'événement</p>
+                <div id="countdown" class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="days">00</span>
+                        <span class="countdown-unit">Jours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="hours">00</span>
+                        <span class="countdown-unit">Heures</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="minutes">00</span>
+                        <span class="countdown-unit">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="seconds">00</span>
+                        <span class="countdown-unit">Secondes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Défiler</span>
+            <span class="scroll-arrow">↓</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Contexte</span>
+                <h2 class="section-title">À Propos du Hackathon</h2>
+                <p class="section-subtitle">Une initiative nationale pour l'innovation sportive</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="text-large">
+                        Le Maroc s'impose aujourd'hui comme un <strong>acteur majeur du sport</strong> africain et mondial, à travers l'organisation d'événements d'envergure continentale et internationale.
+                    </p>
+                    <p>
+                        La <strong>Cité de l'Innovation</strong> et la <strong>Faculté des Sciences et Techniques de Marrakech</strong> lancent la 1ʳᵉ édition du Hackathon SporTech Marrakech–Safi, un événement qui place la créativité, la technologie et l'esprit d'équipe au service du sport et de la performance.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Thématiques</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">👥</div>
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Participants</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🏆</div>
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Prix</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">⏱️</div>
+                            <div class="stat-number">48h</div>
+                            <div class="stat-label">De Codage</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="poster.jpg" alt="Hackathon SporTech 2025-2030" class="poster-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="objectives" data-aos="fade-up">
+                <h3 class="objectives-title">Objectifs Spécifiques</h3>
+                <div class="objectives-grid">
+                    <div class="objective-card">
+                        <div class="objective-icon">💡</div>
+                        <h4>Innovation Technologique</h4>
+                        <p>Promouvoir la création de solutions numériques et technologiques autour du sport, de la santé et de la performance</p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="objective-icon">🚀</div>
+                        <h4>Entrepreneuriat</h4>
+                        <p>Encourager l'esprit d'entrepreneuriat et d'innovation chez les étudiants et jeunes chercheurs</p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="objective-icon">🤝</div>
+                        <h4>Synergie</h4>
+                        <p>Renforcer la synergie entre le monde académique, les acteurs du sport et les entrepreneurs innovants</p>
+                    </div>
+                    <div class="objective-card">
+                        <div class="objective-icon">🌟</div>
+                        <h4>Impact Durable</h4>
+                        <p>Valoriser les compétences régionales à travers des projets durables à fort impact socio-économique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Director Message Section -->
+    <section id="message" class="section message-section">
+        <div class="container">
+            <div class="message-wrapper" data-aos="fade-up">
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="section-tag">Message du Directeur</span>
+                        <h2 class="section-title">Mot du Directeur de la Cité de l'Innovation</h2>
+                    </div>
+                    <div class="director-card">
+                        <div class="director-photo">
+                            <div class="photo-frame">
+                                <img src="director.jpg" alt="Pr. Cherkaoui Moddafar" class="director-img">
+                            </div>
+                        </div>
+                        <div class="director-info">
+                            <h3 class="director-name">Pr. Cherkaoui Moddafar</h3>
+                            <p class="director-title">Directeur de la Cité de l'Innovation</p>
+                        </div>
+                    </div>
+                    <div class="message-text">
+                        <p class="quote-text">
+                            "L'innovation n'est pas simplement une question de technologie, c'est une culture, un état d'esprit qui transforme les défis en opportunités. Le Hackathon SporTech 2025-2030 incarne parfaitement cette vision : unir la passion du sport à la puissance de la technologie pour créer des solutions qui feront la différence dans notre société."
+                        </p>
+                        <p>
+                            À travers cet événement, nous aspirons à mobiliser les talents de notre région, à stimuler la créativité de nos étudiants et chercheurs, et à contribuer activement au rayonnement du Maroc comme pôle d'excellence en innovation sportive.
+                        </p>
+                        <p>
+                            Je vous invite tous à participer à cette aventure exceptionnelle, à partager vos idées innovantes, et à être les acteurs du changement dans l'écosystème sportif de demain.
+                        </p>
+                        <div class="signature">
+                            <p class="signature-text">Pr. Cherkaoui Moddafar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Section -->
+    <section id="innovation" class="section innovation-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Vision</span>
+                <h2 class="section-title">L'Innovation au Cœur du Sport</h2>
+                <p class="section-subtitle">Construire l'avenir du sport marocain à l'ère du numérique</p>
+            </div>
+            <div class="innovation-content">
+                <div class="innovation-grid">
+                    <div class="innovation-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="innovation-icon">🤖</div>
+                        <h3>Intelligence Artificielle</h3>
+                        <p>L'IA révolutionne l'analyse sportive, la prévention des blessures et l'optimisation des performances. Nous développons des solutions éthiques et équitables pour tous.</p>
+                    </div>
+                    <div class="innovation-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="innovation-icon">📊</div>
+                        <h3>Data Analytics</h3>
+                        <p>Les données massives transforment la stratégie sportive. Nous exploitons le big data pour des insights actionnables et des décisions éclairées.</p>
+                    </div>
+                    <div class="innovation-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="innovation-icon">🌍</div>
+                        <h3>Durabilité</h3>
+                        <p>L'innovation durable est notre priorité. Nous créons des solutions écoresponsables pour des événements sportifs verts et une mobilité intelligente.</p>
+                    </div>
+                    <div class="innovation-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="innovation-icon">🎮</div>
+                        <h3>Expérience Immersive</h3>
+                        <p>La réalité augmentée et virtuelle redéfinissent l'engagement des supporters. Nous créons des expériences sportives inoubliables et interactives.</p>
+                    </div>
+                </div>
+                <div class="innovation-highlight" data-aos="fade-up">
+                    <div class="highlight-content">
+                        <h3>Vers un Pôle Régional d'Innovation SporTech 2030</h3>
+                        <p>
+                            Notre ambition est claire : faire du Maroc un hub d'innovation SporTech reconnu à l'échelle continentale et internationale. 
+                            À travers ce hackathon, nous jetons les bases d'un écosystème dynamique où la recherche académique, 
+                            l'entrepreneuriat technologique et l'excellence sportive convergent pour créer des solutions à impact réel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Themes Section -->
+    <section id="themes" class="section themes-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Défis</span>
+                <h2 class="section-title">Thématiques du Hackathon</h2>
+                <p class="section-subtitle">Quatre grands axes pour transformer l'écosystème sportif</p>
+            </div>
+            <div class="themes-grid">
+                <div class="theme-card theme-1" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="theme-number">01</div>
+                    <div class="theme-icon">📈</div>
+                    <h3 class="theme-title">Performance & Analytics</h3>
+                    <ul class="theme-list">
+                        <li>Suivi en temps réel des performances (objets connectés)</li>
+                        <li>Analyse tactique par vision par ordinateur</li>
+                        <li>Prévention des blessures par modélisation prédictive</li>
+                        <li>Optimisation des plans d'entraînement via le machine learning</li>
+                    </ul>
+                    <div class="theme-overlay"></div>
+                </div>
+                <div class="theme-card theme-2" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="theme-number">02</div>
+                    <div class="theme-icon">🏗️</div>
+                    <h3 class="theme-title">Organisation, Logistique & Sécurité</h3>
+                    <ul class="theme-list">
+                        <li>Gestion intelligente des infrastructures sportives</li>
+                        <li>Planification des flux et des transports</li>
+                        <li>Mobilité durable et gestion écoresponsable</li>
+                        <li>Sécurité par IA et détection de comportements à risque</li>
+                    </ul>
+                    <div class="theme-overlay"></div>
+                </div>
+                <div class="theme-card theme-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="theme-number">03</div>
+                    <div class="theme-icon">🎉</div>
+                    <h3 class="theme-title">Expérience des Supporters</h3>
+                    <ul class="theme-list">
+                        <li>Applications mobiles interactives</li>
+                        <li>Billetterie intelligente et blockchain</li>
+                        <li>Réalité augmentée dans les stades</li>
+                        <li>Plateformes communautaires d'engagement</li>
+                    </ul>
+                    <div class="theme-overlay"></div>
+                </div>
+                <div class="theme-card theme-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="theme-number">04</div>
+                    <div class="theme-icon">🧠</div>
+                    <h3 class="theme-title">Intelligence Artificielle & Sport</h3>
+                    <ul class="theme-list">
+                        <li>Assistants IA pour entraîneurs et arbitres</li>
+                        <li>Systèmes prédictifs pour les résultats</li>
+                        <li>Analyse vidéo automatisée</li>
+                        <li>Promotion d'une IA éthique et équitable</li>
+                    </ul>
+                    <div class="theme-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Committee Section -->
+    <section id="comite" class="section committee-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Équipe</span>
+                <h2 class="section-title">Comité d'Organisation</h2>
+                <p class="section-subtitle">L'équipe derrière cet événement exceptionnel</p>
+            </div>
+            
+            <!-- Présidence d'Honneur -->
+            <div class="presidency" data-aos="fade-up">
+                <h3 class="presidency-title">Présidence d'Honneur</h3>
+                <div class="leadership-grid">
+                    <div class="leader-card">
+                        <div class="leader-photo-wrapper">
+                            <img src="president.jpg" alt="Président de l'Université" class="leader-photo">
+                            <div class="leader-overlay"></div>
+                        </div>
+                        <div class="leader-info">
+                            <h4 class="leader-name">Pr. [Nom du Président]</h4>
+                            <p class="leader-role">Président de l'Université Cadi Ayyad</p>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo-wrapper">
+                            <img src="dean.jpg" alt="Doyen de la FST" class="leader-photo">
+                            <div class="leader-overlay"></div>
+                        </div>
+                        <div class="leader-info">
+                            <h4 class="leader-name">Pr. [Nom du Doyen]</h4>
+                            <p class="leader-role">Doyen de la Faculté des Sciences et Techniques</p>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo-wrapper">
+                            <img src="director.jpg" alt="Directeur de la Cité" class="leader-photo">
+                            <div class="leader-overlay"></div>
+                        </div>
+                        <div class="leader-info">
+                            <h4 class="leader-name">Pr. Cherkaoui Moddafar</h4>
+                            <p class="leader-role">Directeur de la Cité de l'Innovation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comité Organisateur -->
+            <div class="organizers" data-aos="fade-up">
+                <h3 class="organizers-title">Comité Organisateur</h3>
+                <div class="organizers-grid">
+                    <div class="organizer-card">
+                        <div class="organizer-photo-wrapper">
+                            <img src="member1.jpg" alt="Membre du comité" class="organizer-photo">
+                        </div>
+                        <h4 class="organizer-name">Pr. [Nom]</h4>
+                        <p class="organizer-role">Coordinateur Scientifique</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="organizer-photo-wrapper">
+                            <img src="member2.jpg" alt="Membre du comité" class="organizer-photo">
+                        </div>
+                        <h4 class="organizer-name">Dr. [Nom]</h4>
+                        <p class="organizer-role">Responsable Logistique</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="organizer-photo-wrapper">
+                            <img src="member3.jpg" alt="Membre du comité" class="organizer-photo">
+                        </div>
+                        <h4 class="organizer-name">[Nom]</h4>
+                        <p class="organizer-role">Responsable Communication</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="organizer-photo-wrapper">
+                            <img src="member4.jpg" alt="Membre du comité" class="organizer-photo">
+                        </div>
+                        <h4 class="organizer-name">[Nom]</h4>
+                        <p class="organizer-role">Responsable Technique</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="organizer-photo-wrapper">
+                            <img src="member5.jpg" alt="Membre du comité" class="organizer-photo">
+                        </div>
+                        <h4 class="organizer-name">[Nom]</h4>
+                        <p class="organizer-role">Responsable Partenariats</p>
+                    </div>
+                    <div class="organizer-card">
+                        <div class="organizer-photo-wrapper">
+                            <img src="member6.jpg" alt="Membre du comité" class="organizer-photo">
+                        </div>
+                        <h4 class="organizer-name">[Nom]</h4>
+                        <p class="organizer-role">Responsable Jury</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendrier" class="section calendar-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Planning</span>
+                <h2 class="section-title">Calendrier & Étapes Clés</h2>
+                <p class="section-subtitle">Suivez les étapes importantes de l'événement</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">31 Octobre 2025</div>
+                        <h3 class="timeline-title">Lancement Officiel</h3>
+                        <p class="timeline-description">Annonce publique du hackathon et ouverture des candidatures</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">10 Décembre 2025</div>
+                        <h3 class="timeline-title">Clôture des Candidatures</h3>
+                        <p class="timeline-description">Date limite pour soumettre votre projet via le formulaire en ligne</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">11 - 15 Décembre 2025</div>
+                        <h3 class="timeline-title">Phase de Présélection</h3>
+                        <p class="timeline-description">Évaluation des candidatures par le comité scientifique</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">15 Décembre 2025</div>
+                        <h3 class="timeline-title">Annonce des Projets Retenus</h3>
+                        <p class="timeline-description">Publication de la liste des équipes sélectionnées</p>
+                    </div>
+                </div>
+                <div class="timeline-item highlight" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">26 & 27 Décembre 2025</div>
+                        <h3 class="timeline-title">Déroulement du Hackathon</h3>
+                        <p class="timeline-description">48 heures intensives de codage, création et innovation à la Cité de l'Innovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Participation Section -->
+    <section id="participer" class="section participation-section">
+        <div class="container">
+            <div class="participation-wrapper" data-aos="fade-up">
+                <div class="participation-content">
+                    <span class="section-tag">Rejoignez-nous</span>
+                    <h2 class="section-title">Participez au Hackathon</h2>
+                    <p class="participation-text">
+                        Étudiants, chercheurs, innovateurs : c'est votre moment de briller ! 
+                        Rejoignez le Hackathon SporTech 2025-2030 et contribuez à façonner le futur du sport marocain.
+                    </p>
+                    
+                    <div class="eligibility">
+                        <h3>Public Cible</h3>
+                        <ul class="eligibility-list">
+                            <li>✓ Étudiants de l'Université Cadi Ayyad</li>
+                            <li>✓ Étudiants des établissements d'enseignement supérieur (publics et privés)</li>
+                            <li>✓ Jeunes porteurs de projets de la région Marrakech-Safi</li>
+                        </ul>
+                    </div>
+
+                    <div class="criteria">
+                        <h3>Critères d'Évaluation</h3>
+                        <div class="criteria-grid">
+                            <div class="criteria-item">
+                                <span class="criteria-icon">💡</span>
+                                <p>Innovation et pertinence</p>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-icon">⚙️</span>
+                                <p>Faisabilité technique</p>
+                            </div>
+                            <div class="criteria-item">
+                                <span class="criteria-icon">🌍</span>
+                                <p>Impact socio-économique</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prizes">
+                        <h3>Récompenses</h3>
+                        <p>Trois prix récompenseront les meilleurs projets distingués par le jury</p>
+                    </div>
+
+                    <div class="cta-wrapper">
+                        <a href="https://forms.gle/m1S76MLVDDDZMJ796" target="_blank" class="btn btn-primary btn-large pulse">
+                            <span>Soumettre Ma Candidature</span>
+                            <span class="btn-icon">→</span>
+                        </a>
+                        <p class="deadline-notice">
+                            <span class="deadline-icon">⏰</span>
+                            Date limite : 10 Décembre 2025
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper" data-aos="fade-up">
+                <div class="contact-info">
+                    <h3>Informations & Contact</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:incubation@uca.ac.ma" class="contact-value">incubation@uca.ac.ma</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <p class="contact-label">Adresse</p>
+                                <p class="contact-value">Cité de l'Innovation, Marrakech</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="organizers-logos">
+                    <h3>Organisateurs</h3>
+                    <div class="logos-grid">
+                        <div class="logo-item">Université Cadi Ayyad</div>
+                        <div class="logo-item">Cité de l'Innovation</div>
+                        <div class="logo-item">FST Marrakech</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">SporTech 2025</h3>
+                    <p class="footer-tagline">La passion du sport & la puissance de la tech !</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#themes">Thématiques</a></li>
+                        <li><a href="#comite">Comité</a></li>
+                        <li><a href="#participer">Participer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>incubation@uca.ac.ma</p>
+                    <p>Cité de l'Innovation, Marrakech</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hackathon SporTech. Université Cadi Ayyad. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
